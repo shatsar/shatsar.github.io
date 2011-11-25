@@ -5,18 +5,27 @@
 
 body {
 	color: #363636;
+	background-image: url(../images/background.jpg);
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
 	margin-bottom: 0px;
 	font-size: 37px;
+	color: #300f0f;
 } 
 
 h2 {
 	margin-top: 0px;
-	color:#baafaf;
+	margin-bottom: 5px;
+	color: #9a5f5f;
 	font-weight: normal;
 	font-size: 31px;
+}
+
+header {
+	border-bottom: 1px solid #300f0f;
+	margin-bottom: 5px;
 }
 h1, h2 {
 	font-family: 'Signika', sans-serif;
