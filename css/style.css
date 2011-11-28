@@ -16,6 +16,13 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+	padding-top: 15px;
+	padding-bottom: 5px;
+	color: #633404;
+	font-size: 20px;
+}
+
 h1 {
 	padding-top: 10px;
 	margin-bottom: 0px;
