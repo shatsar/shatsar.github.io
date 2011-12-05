@@ -19,7 +19,6 @@ body {
 h3 {
 	padding-top: 15px;
 	padding-bottom: 5px;
-	color: #633404;
 	font-size: 20px;
 }
 
@@ -28,12 +27,17 @@ h1 {
 	margin-bottom: 0px;
 	font-size: 37px;
 	color: #422305;
+	text-shadow: 0 1px 1px rgba(200, 200, 200, .8);
 } 
 
 h2 {
-	color: #633404;
 	font-weight: normal;
 	font-size: 31px;
+}
+
+h2, h3 {
+	text-shadow: 0 1px 1px rgba(230, 230, 230, .8);
+	color: #633404;
 }
 
 #container {
@@ -54,8 +58,7 @@ footer {
 }
 
 
-#header {
-	border-bottom: 1px solid #422305;
+header {
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 }
