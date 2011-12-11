@@ -12,7 +12,7 @@ html, body {
 
 body {
 	color: #363636;
-	background-image: url(../images/background.jpg);
+	background-image: url(../images/flooring.jpg);
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -23,11 +23,10 @@ h3 {
 }
 
 h1 {
-	padding-top: 10px;
+	padding-top: 0px;
 	margin-bottom: 0px;
 	font-size: 37px;
-	color: #422305;
-	text-shadow: 0 1px 1px rgba(200, 200, 200, .8);
+	color: #DD4832;
 } 
 
 h2 {
@@ -37,7 +36,7 @@ h2 {
 
 h2, h3 {
 	text-shadow: 0 1px 1px rgba(230, 230, 230, .8);
-	color: #633404;
+	color: #734414;
 }
 
 #container {
@@ -45,6 +44,13 @@ h2, h3 {
 	height: auto !important;
         height: 100%;
         margin: 0 auto -30px;
+	background: url(../images/background.png);
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	-o-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	padding: 10px;
+
 }
 
 footer, .push {
@@ -59,8 +65,20 @@ footer {
 
 
 header {
-	margin-bottom: 20px;
-	padding-bottom: 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	padding: 20px;
+	width: 250px;
+	-moz-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	background: url(../images/background.png);
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	-o-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+
 }
 h1, h2 {
 	font-family: 'Signika', sans-serif;
