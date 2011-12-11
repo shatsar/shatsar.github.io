@@ -6,9 +6,6 @@
 * {
 	margin:0;
 }
-html, body {
-	height: 100%;
-}
 
 body {
 	color: #363636;
@@ -40,17 +37,19 @@ h2, h3 {
 }
 
 #container {
-	min-height: 100%;
-	height: auto !important;
-        height: 100%;
         margin: 0 auto -30px;
 	background: url(../images/background.png);
 	-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
 	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
 	-o-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
 	box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
-	padding: 10px;
+	padding: 0 10px;
 
+}
+
+#content {
+	clear: both;
+	padding-bottom: 40px;
 }
 
 footer, .push {
@@ -78,7 +77,6 @@ header {
 	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
 	-o-box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
 	box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
-
 }
 h1, h2 {
 	font-family: 'Signika', sans-serif;
