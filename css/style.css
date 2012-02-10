@@ -62,12 +62,17 @@ footer {
 	text-align: right;
 }
 
+header {
+	margin-top: 20px;
+	height: 150px;
+}
 
 #who {
+	float: left;
 	margin-bottom: 30px;
-	margin-top: 20px;
+	margin-top: 5px;
 	padding: 20px;
-	width: 290px;
+	text-align: center;
 	-moz-transform: rotate(-10deg);
 	-webkit-transform: rotate(-10deg);
 	-o-transform: rotate(-10deg);
@@ -99,4 +104,14 @@ p {
 	font-size: 20px;
 	text-indent: 0px;
 	margin-bottom: 5px;
+}
+
+#where {
+	float: right;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+
+#where a {
+	text-decoration: none;
 }
