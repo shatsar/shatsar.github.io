@@ -63,11 +63,11 @@ footer {
 }
 
 
-header {
+#who {
 	margin-bottom: 30px;
 	margin-top: 20px;
 	padding: 20px;
-	width: 250px;
+	width: 290px;
 	-moz-transform: rotate(-10deg);
 	-webkit-transform: rotate(-10deg);
 	-o-transform: rotate(-10deg);
