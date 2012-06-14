@@ -112,8 +112,9 @@ p {
 	padding-top: 20px;
 }
 
-#where a {
-	margin: 0px;	
+#where img {
+	margin: 0px;
+	border: 0px;	
 }
 
 #where a {
