@@ -113,5 +113,9 @@ p {
 }
 
 #where a {
+	margin: 0px;	
+}
+
+#where a {
 	text-decoration: none;
 }
