@@ -1,5 +1,6 @@
 #container, footer {
-	width: 960px;
+	width: 80%;
+	min-width:700px;
 	margin: 0 auto;
 }
 
