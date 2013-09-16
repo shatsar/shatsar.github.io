@@ -35,5 +35,10 @@ footer {
 }
 
 .jumbotron {
-	margin-top: 20px;
+	background-color: #68c39f;
+	color: white;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+.jumbotron h1 {
+	font-family: 'Merriweather Sans', sans-serif;
 }
